@@ -3,8 +3,8 @@ services:
     name: library-management-system
     runtime: docker
     plan: free
-    dockerfilePath: ./Dockerfile
-    dockerContext: .
+    dockerfilePath: ./LibraryManagementSystem/Dockerfile
+    dockerContext: ./LibraryManagementSystem
     healthCheckPath: /login
     autoDeploy: true
     envVars:
